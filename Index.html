@@ -1,28 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>عبدالله نبيل - خبير أتمتة N8N | حوّل عملك بالذكاء الاصطناعي</title>
-    <meta name="description" content="خدمات أتمتة N8N ودمج الذكاء الاصطناعي الاحترافية في المملكة العربية السعودية. حوّل العمليات اليدوية إلى أنظمة ذكية. استشارات متخصصة وسير عمل مخصص ودعم على مدار الساعة." />
-    <meta name="author" content="عبدالله نبيل" />
-    <meta name="keywords" content="أتمتة n8n, دمج الذكاء الاصطناعي, أتمتة سير العمل, أتمتة الأعمال, السعودية, الرياض, أتمتة العمليات, سير عمل مخصص" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة هبوط</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; color: #333; }
 
-    <meta property="og:title" content="عبدالله نبيل - خبير أتمتة N8N" />
-    <meta property="og:description" content="حوّل عملك بالأتمتة الذكية. خدمات سير عمل N8N الاحترافية ودمج الذكاء الاصطناعي في المملكة العربية السعودية." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; color: #fff; padding: 20px;
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 15px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9; }
+        .btn {
+            padding: 14px 40px; border: none; border-radius: 50px;
+            background: #fff; color: #764ba2; font-size: 1.1rem;
+            cursor: pointer; font-weight: bold; transition: transform 0.3s;
+            text-decoration: none;
+        }
+        .btn:hover { transform: scale(1.08); }
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+        /* Features */
+        .features {
+            display: flex; flex-wrap: wrap; justify-content: center;
+            gap: 30px; padding: 80px 20px; max-width: 1000px; margin: auto;
+        }
+        .card {
+            background: #fff; border-radius: 16px; padding: 30px;
+            width: 280px; text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover { transform: translateY(-8px); }
+        .card .icon { font-size: 2.5rem; margin-bottom: 15px; }
+        .card h3 { margin-bottom: 10px; color: #764ba2; }
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        /* CTA */
+        .cta {
+            background: linear-gradient(135deg, #764ba2, #667eea);
+            color: #fff; text-align: center; padding: 60px 20px;
+        }
+        .cta h2 { font-size: 2rem; margin-bottom: 20px; }
+        .cta .btn { color: #667eea; }
+
+        /* Footer */
+        footer {
+            text-align: center; padding: 20px;
+            background: #222; color: #aaa; font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+    <div>
+        <h1>🚀 حلول رقمية مبتكرة</h1>
+        <p>نساعدك على تنمية أعمالك وتحقيق أهدافك بأسهل الطرق</p>
+        <a href="#cta" class="btn">ابدأ الآن</a>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+    <div class="card">
+        <div class="icon">⚡</div>
+        <h3>سرعة فائقة</h3>
+        <p>أداء عالي وسرعة استجابة لا مثيل لها</p>
+    </div>
+    <div class="card">
+        <div class="icon">🔒</div>
+        <h3>أمان تام</h3>
+        <p>حماية بياناتك بأعلى معايير الأمان</p>
+    </div>
+    <div class="card">
+        <div class="icon">🎯</div>
+        <h3>نتائج مضمونة</h3>
+        <p>نتائج حقيقية وقابلة للقياس</p>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="cta">
+    <h2>جاهز للانطلاق؟</h2>
+    <a href="#" class="btn">تواصل معنا</a>
+</section>
+
+<!-- Footer -->
+<footer>© 2025 جميع الحقوق محفوظة</footer>
+
+</body>
 </html>
